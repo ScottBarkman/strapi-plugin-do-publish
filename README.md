@@ -4,7 +4,7 @@
 [![Actions Status][ci-image]][ci-url]
 [![PR Welcome][npm-downloads-image]][npm-downloads-url]
 
-This is a plugin for [Strapi](https://github.com/strapi/strapi) headless CMS. It lets you trigger a Digital Ocean App Platform Deployment when the site is ready to be published.
+This is a plugin for [Strapi](https://github.com/strapi/strapi) headless CMS. It lets you trigger a Digital Ocean App Platform Deployment when the site is ready to be published. Thanks to [digitaljohn] (https://github.com/digitaljohn) @ phantomstudios for the initial github pages version.
 
 ## Introduction
 
@@ -47,10 +47,3 @@ module.exports = ({ env }) => ({
 ## Use the Plugin
 
 When the plugin has been installed correctly just click on `Digital Ocean Publishing` in the sidebar under plugins then click "Publish".
-
-[npm-image]: https://img.shields.io/npm/v/strapi-plugin-github-publish.svg?style=flat-square&logo=react
-[npm-url]: https://npmjs.org/package/strapi-plugin-github-publish
-[npm-downloads-image]: https://img.shields.io/npm/dm/strapi-plugin-github-publish.svg
-[npm-downloads-url]: https://npmcharts.com/compare/strapi-plugin-github-publish?minimal=true
-[ci-image]: https://github.com/phantomstudios/strapi-plugin-github-publish/workflows/Test/badge.svg
-[ci-url]: https://github.com/phantomstudios/strapi-plugin-github-publish/actions
