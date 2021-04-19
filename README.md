@@ -4,7 +4,7 @@
 [![Actions Status][ci-image]][ci-url]
 [![PR Welcome][npm-downloads-image]][npm-downloads-url]
 
-This is a plugin for [Strapi](https://github.com/strapi/strapi) headless CMS. It lets you trigger a Digital Ocean App Platform Deployment when the site is ready to be published. Thanks to [digitaljohn] (https://github.com/digitaljohn) @ phantomstudios for the initial github pages version.
+This is a plugin for [Strapi](https://github.com/strapi/strapi) headless CMS. It lets you trigger a Digital Ocean App Platform Deployment when the site is ready to be published. Thanks to [digitaljohn](https://github.com/digitaljohn) @ phantomstudios for the initial github pages version.
 
 ## Introduction
 
