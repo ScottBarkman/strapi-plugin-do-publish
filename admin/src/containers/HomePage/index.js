@@ -42,7 +42,7 @@ const HomePage = () => {
 
   const handleClick = () => {
     const ok = confirm(
-      formatMessage({ id: "github-publish.home.prompt.confirm" })
+      formatMessage({ id: "do-publish.home.prompt.confirm" })
     );
     if (ok) triggerPublish();
   };
@@ -50,33 +50,33 @@ const HomePage = () => {
   return (
     <Padded size="md" top left bottom right>
       <Header
-        title={{ label: formatMessage({ id: "github-publish.home.title" }) }}
-        content={formatMessage({ id: "github-publish.home.description" })}
+        title={{ label: formatMessage({ id: "do-publish.home.title" }) }}
+        content={formatMessage({ id: "do-publish.home.description" })}
       />
       {ready ? (
         busy ? (
           <>
             <LoadingBar />
-            <Text>{formatMessage({ id: "github-publish.home.busy" })}</Text>
+            <Text>{formatMessage({ id: "do-publish.home.busy" })}</Text>
           </>
         ) : (
           <>
             <Padded size="md" bottom>
-              <Text>{formatMessage({ id: "github-publish.home.prompt" })}</Text>
+              <Text>{formatMessage({ id: "do-publish.home.prompt" })}</Text>
             </Padded>
             <Button
               color="primary"
               icon={<FontAwesomeIcon icon={faUpload} />}
               onClick={handleClick}
             >
-              {formatMessage({ id: "github-publish.home.button.publish" })}
+              {formatMessage({ id: "do-publish.home.button.publish" })}
             </Button>
           </>
         )
       ) : (
         <>
           <LoadingBar />
-          <Text>{formatMessage({ id: "github-publish.home.notready" })}</Text>
+          <Text>{formatMessage({ id: "do-publish.home.notready" })}</Text>
         </>
       )}
     </Padded>

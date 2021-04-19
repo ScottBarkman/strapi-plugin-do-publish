@@ -1,7 +1,7 @@
 "use strict";
 
 /**
- * github-publish.js service
+ * do-publish.js service
  *
  * @description: A set of functions similar to controller's actions to avoid code duplication.
  */

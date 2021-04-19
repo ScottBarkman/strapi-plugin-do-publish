@@ -3,7 +3,7 @@
     {
       "method": "GET",
       "path": "/check",
-      "handler": "github-publish.check",
+      "handler": "do-publish.check",
       "config": {
         "policies": []
       }
@@ -11,7 +11,7 @@
     {
       "method": "GET",
       "path": "/publish",
-      "handler": "github-publish.publish",
+      "handler": "do-publish.publish",
       "config": {
         "policies": []
       }

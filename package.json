@@ -1,11 +1,11 @@
 {
-  "name": "strapi-plugin-github-publish",
+  "name": "strapi-plugin-do-publish",
   "version": "0.0.5",
-  "description": "A plugin to easily trigger GitHub Actions workflows from Strapi.",
+  "description": "A plugin to easily trigger a new deployment on Digital Ocean App Platform from Strapi.",
   "strapi": {
-    "name": "GitHub Publishing",
+    "name": "Digital Ocean Publishing",
     "icon": "plug",
-    "description": "Publish changes via GitHub Actions."
+    "description": "Publish changes via Digital Ocean App Platform Deployment."
   },
   "dependencies": {},
   "scripts": {
@@ -18,15 +18,15 @@
     "depcheck": "npx npm-check --update"
   },
   "author": {
-    "name": "Phantom Studios Ltd.",
-    "email": "boo@phntms.com",
-    "url": "https://www.phntms.com"
+    "name": "Scott Barkman",
+    "email": "scott@liftinteractive.com",
+    "url": "https://liftinteractive.com"
   },
   "maintainers": [
     {
-      "name": "Phantom Studios Ltd.",
-      "email": "boo@phntms.com",
-      "url": "https://www.phntms.com"
+      "name": "Scott Barkman",
+      "email": "scott@liftinteractive.com",
+      "url": "https://liftinteractive.com"
     }
   ],
   "engines": {
