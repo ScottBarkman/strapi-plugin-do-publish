@@ -1,13 +1,15 @@
 {
   "name": "strapi-plugin-do-publish",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "A plugin to easily trigger a new deployment on Digital Ocean App Platform from Strapi.",
   "strapi": {
     "name": "Digital Ocean Publishing",
     "icon": "plug",
     "description": "Publish changes via Digital Ocean App Platform Deployment."
   },
-  "dependencies": {},
+  "dependencies": {
+    "strapi-plugin-do-publish": "^0.0.5"
+  },
   "scripts": {
     "lint": "NODE_ENV=test npm-run-all --parallel lint:*",
     "lint:js": "eslint \"**/*.{js,jsx}\"",
